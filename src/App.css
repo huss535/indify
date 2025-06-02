@@ -4,7 +4,24 @@ main {
 
 h1 {
   font-family: headerFont;
-  font-size: 4rem;
+  font-size: 4.25rem;
   text-align: center;
 
+}
+
+h2,
+p {
+  font-family: textFont;
+  text-shadow: 1px 1px 0px black,
+    -1px 1px 0px black,
+    -1px -1px 0px black,
+    1px -1px 0px black;
+
+
+  color: var(--color-text);
+}
+
+
+p {
+  font-size: 2rem;
 }

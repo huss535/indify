@@ -1,0 +1,32 @@
+#intro-page span:first-child {
+
+    color: var(--color-text);
+}
+
+#intro-page span:nth-child(2) {
+
+    color: var(--color-primary);
+}
+
+#intro-page span:nth-child(3) {
+
+    color: var(--color-secondary);
+}
+
+
+#intro-page span:nth-child(4) {
+
+    color: var(--color-text);
+}
+
+
+#intro-page span:nth-child(5) {
+
+    color: var(--color-secondary);
+}
+
+
+#intro-page span:last-child {
+
+    color: var(--color-primary);
+}
