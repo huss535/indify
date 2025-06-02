@@ -1,0 +1,10 @@
+main {
+  height: 100vh;
+}
+
+h1 {
+  font-family: headerFont;
+  font-size: 4rem;
+  text-align: center;
+
+}
