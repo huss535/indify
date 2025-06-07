@@ -18,8 +18,20 @@ const LandingPage = () => {
                 <span>Y</span>
             </h1>
 
-            <p>n-dih-fy (verb)
+
+            {/*             <img id="intro-graphic-1" src="public/images/intro-graphic-1.png" alt="Intro Graphic 1" />
+ */}
+            <p id="intro-subtitle">in-dih-fy (verb) <br />
                 discovering up-and-coming artists before they blow up </p>
+
+
+            <div id="intro-cta">
+                <p>Link your spotify account</p>
+                <p>Get insights on your music</p>
+                <p>Find new artists</p>
+            </div>
+
+            <button>Link Spotify</button>
 
 
         </main>

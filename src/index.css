@@ -13,6 +13,8 @@
   --color-text: #fff1b6;
   --color-primary: #328a48;
   --color-secondary: #ff46c9;
+  --text-size: 1.5rem;
+  --header-size: 2.5rem;
 
 }
 
@@ -30,7 +32,7 @@
 
 body {
 
-  background-image: url(../public/indify-background.png);
+  background-image: url(../public/images/indify-background.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
