@@ -1,4 +1,5 @@
 main {
+  position: relative;
   height: 100vh;
 }
 
@@ -12,10 +13,10 @@ h1 {
 h2,
 p {
   font-family: textFont;
-  text-shadow: 1px 1px 0px black,
-    -1px 1px 0px black,
-    -1px -1px 0px black,
-    1px -1px 0px black;
+  text-shadow: 1px 1px 0px grey,
+    -1px 1px 0px grey,
+    -1px -1px 0px grey,
+    1px -1px 0px grey;
 
 
   color: var(--color-text);
@@ -23,5 +24,42 @@ p {
 
 
 p {
-  font-size: 2rem;
+
+  font-size: var(--text-size);
+}
+
+button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  font-family: textFont;
+  font-size: var(--text-size);
+  color: var(--color-text);
+  cursor: pointer;
+
+  /* important if you want the image not cropped */
+  z-index: 1;
+  width: 15rem;
+  /* set your desired button size */
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: -5%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+
+  background: url(../public/images/indify-button.png) no-repeat center center;
+  background-size: contain;
+  /* use contain if you don't want cropping, or cover if you do */
+
+  z-index: -1;
 }

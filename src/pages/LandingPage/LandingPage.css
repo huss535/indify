@@ -30,3 +30,33 @@
 
     color: var(--color-primary);
 }
+
+#intro-subtitle {
+
+    font-size: calc(var(--text-size)/1.25);
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    color: var(--color-text);
+    width: 80%;
+
+
+}
+
+/* #intro-graphic-1 {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+} */
+
+#intro-cta {
+    margin-top: 4rem;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
