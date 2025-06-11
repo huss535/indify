@@ -1,6 +1,6 @@
 #intro-page span:first-child {
 
-    color: var(--color-text);
+    color: black;
 }
 
 #intro-page span:nth-child(2) {
@@ -16,17 +16,17 @@
 
 #intro-page span:nth-child(4) {
 
-    color: var(--color-text);
+    color: black;
 }
 
 
 #intro-page span:nth-child(5) {
 
-    color: var(--color-secondary);
+    color: var(--color-text);
 }
 
 
-#intro-page span:last-child {
+#intro-page span:nth-child(6) {
 
     color: var(--color-primary);
 }
@@ -52,11 +52,63 @@
 } */
 
 #intro-cta {
-    margin-top: 4rem;
+    position: relative;
     display: flex;
 
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
+    justify-content: center;
+    padding-block: 5rem;
+    width: 100%;
+
+
+}
+
+#intro-cta::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    bottom: -10%;
+    left: 0;
+    width: 100%;
+
+    background: url("/Users/elhussin/Desktop/indify/public/images/cta-background.webp") no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+#intro-cta p {
+    padding: 0 1rem;
+}
+
+#intro-cta p:first-child {
+    align-self: flex-start;
+}
+
+#intro-cta p:nth-child(2) {
+    align-self: center;
+    width: 80%;
+    text-align: center;
+}
+
+#intro-cta p:last-child {
+    align-self: flex-end;
+}
+
+
+.striped-graphics-container {
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    background: url("/Users/elhussin/Desktop/indify/public/images/striped-paper.png") no-repeat center center;
+    background-size: cover;
+
+}
+
+#intro-page h1 {
+    position: relative;
+    width: 100%;
 }

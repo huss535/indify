@@ -1,22 +1,28 @@
 main {
   position: relative;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1 {
   font-family: headerFont;
   font-size: 4.25rem;
   text-align: center;
+  margin: 0;
 
 }
 
 h2,
-p {
+p,
+button {
   font-family: textFont;
-  text-shadow: 1px 1px 0px grey,
-    -1px 1px 0px grey,
-    -1px -1px 0px grey,
-    1px -1px 0px grey;
+  text-shadow: 0.15rem 0.15rem 0px black,
+    -0.15rem 0.15rem 0px black,
+    -0.15rem -0.15rem 0px black,
+    0.15rem -0.15rem 0px black;
 
 
   color: var(--color-text);

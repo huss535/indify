@@ -10,12 +10,13 @@ const LandingPage = () => {
         <main id="intro-page">
 
             <h1>
-                <span>i</span>
-                <span>N</span>
-                <span>d</span>
                 <span>I</span>
+                <span>N</span>
+                <span>D</span>
+                <span>i</span>
                 <span>F</span>
                 <span>Y</span>
+                <div className="striped-graphics-container"></div>
             </h1>
 
 
