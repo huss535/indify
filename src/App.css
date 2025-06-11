@@ -16,7 +16,8 @@ h1 {
 }
 
 h2,
-p {
+p,
+button {
   font-family: textFont;
   text-shadow: 0.15rem 0.15rem 0px black,
     -0.15rem 0.15rem 0px black,

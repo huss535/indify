@@ -56,7 +56,7 @@
     display: flex;
 
     flex-direction: column;
-    align-items: center;
+
     justify-content: center;
     padding-block: 5rem;
     width: 100%;
@@ -75,6 +75,24 @@
     background: url("/Users/elhussin/Desktop/indify/public/images/cta-background.webp") no-repeat center center;
     background-size: cover;
     z-index: -1;
+}
+
+#intro-cta p {
+    padding: 0 1rem;
+}
+
+#intro-cta p:first-child {
+    align-self: flex-start;
+}
+
+#intro-cta p:nth-child(2) {
+    align-self: center;
+    width: 80%;
+    text-align: center;
+}
+
+#intro-cta p:last-child {
+    align-self: flex-end;
 }
 
 
