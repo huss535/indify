@@ -1,12 +1,17 @@
 main {
   position: relative;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1 {
   font-family: headerFont;
   font-size: 4.25rem;
   text-align: center;
+  margin: 0;
 
 }
 

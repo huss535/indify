@@ -8,6 +8,7 @@ const LandingPage = () => {
 
 
         <main id="intro-page">
+            <div className="striped-graphics-container"></div>
 
             <h1>
                 <span>i</span>
