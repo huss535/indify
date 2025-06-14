@@ -93,6 +93,14 @@ button::before {
 
 }
 
+.user-info-header img {
+  position: absolute;
+  top: -20%;
+  left: 10%;
+  width: 6rem;
+  height: auto
+}
+
 .user-info-header::before {
   content: "";
   position: absolute;
@@ -105,11 +113,14 @@ button::before {
   z-index: -1;
 }
 
+
+
 .user-info-header span:first-child {
+  font-family: headerFont;
   position: absolute;
   font-size: var(--text-size);
-  top: -30%;
-  left: 10%;
+  top: -35%;
+  left: 5%;
 
 }
 
