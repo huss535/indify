@@ -2,7 +2,17 @@ import './AlbumRevealPage.css'
 const AlbumRevealPage = () => {
     return (
         <main>
-            <h2>Album Reveal</h2>
+
+
+
+            <h1 className='user-info-header'>
+                <span>Indify</span>
+                Chloe
+                <span>Present</span>
+
+            </h1>
+
+
             <div id='album-container' className='shadow-effect '>
                 {/*   <div className='album-cover'>
                     <img src='https://via.placeholder.com/300' alt='Album Cover' />
@@ -12,6 +22,8 @@ const AlbumRevealPage = () => {
                 <h2>Chloe's indified starter pack</h2>
 
             </div>
+
+            <button >Analyze</button>
         </main>
     );
 };
