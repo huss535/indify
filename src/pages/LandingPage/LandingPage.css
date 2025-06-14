@@ -111,4 +111,8 @@
 #intro-page h1 {
     position: relative;
     width: 100%;
+    font-family: headerFont;
+    font-size: 4.25rem;
+    text-align: center;
+    margin: 0;
 }
