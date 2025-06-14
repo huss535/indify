@@ -1,0 +1,37 @@
+#album-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    background: url('public/images/album-photos/album-cover-background.svg') no-repeat center center;
+    margin: 0;
+    padding: 0;
+
+}
+
+#album-container h2 {
+    padding-right: 1rem;
+    text-align: right;
+    width: 65%;
+    align-self: flex-end;
+}
+
+#parental-advisory-logo {
+    position: absolute;
+    width: 30%;
+    height: fit-content;
+
+    bottom: 0;
+    left: 0;
+}
+
+#album-cover {
+    top: 5%;
+    position: absolute;
+    width: auto;
+    height: 65%;
+}
